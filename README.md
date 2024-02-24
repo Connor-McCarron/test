@@ -1,3 +1,4 @@
+```
 import time
 from adafruit_ble import BLERadio
 from adafruit_ble.advertising.standard import ProvideServicesAdvertisement
@@ -48,3 +49,4 @@ while True:
         uart_connection = None
 
     time.sleep(0.1)  # Short delay before next iteration
+```
